@@ -22,7 +22,7 @@ export default {
     if (url.pathname === "/health" || url.pathname === "/_app/meta") {
       return json({
         ok: true,
-        actor: "did:web:vehicle.etzhayyim.com",
+        actor: "did:web:vehicle.itonami.app",
         nanoid: env.APP_NANOID ?? "v3h1cl01",
         execution: "edge-proxy+agentgateway-mcp+langserver",
         businessLogic: "40-engine/kotoba/crates/kotoba-kotodama/py/src/kotodama/ingest/vehicle.py",

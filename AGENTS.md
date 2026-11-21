@@ -1,11 +1,11 @@
 # etzhayyim-project-vehicle
 
-Vehicle ownership registry for vehicle.etzhayyim.com — vehicle registration, ownership transfer, inspection records. SQL graph: `(:VehicleOwner)-[:OWNS]->(:Vehicle)`, `(:InspectionRecord)-[:INSPECTS]->(:Vehicle)`.
+Vehicle ownership registry for vehicle.itonami.app — vehicle registration, ownership transfer, inspection records. SQL graph: `(:VehicleOwner)-[:OWNS]->(:Vehicle)`, `(:InspectionRecord)-[:INSPECTS]->(:Vehicle)`.
 
 ## Architecture
 
 ```
-Browser → vehicle.etzhayyim.com (appview mode)
+Browser → vehicle.itonami.app (appview mode)
        → API → /etzhayyim.vehicle.v1.VehicleCommandService/... + /etzhayyim.vehicle.v1.VehicleQueryService/...
                   ↓
            App: etzhayyim-wasm-vehicle-vh1cl3rk
@@ -41,9 +41,9 @@ Browser → vehicle.etzhayyim.com (appview mode)
 
 | DID | Purpose |
 |---|---|
-| `did:web:vehicle.etzhayyim.com` | Primary (controller) |
-| `did:web:vehicle.etzhayyim.com:vehicle:{vin}` | Per-vehicle DID |
-| `did:web:vehicle.etzhayyim.com:owner:{owner_id}` | Per-owner DID |
+| `did:web:vehicle.itonami.app` | Primary (controller) |
+| `did:web:vehicle.itonami.app:vehicle:{vin}` | Per-vehicle DID |
+| `did:web:vehicle.itonami.app:owner:{owner_id}` | Per-owner DID |
 
 ## Build & Deploy
 

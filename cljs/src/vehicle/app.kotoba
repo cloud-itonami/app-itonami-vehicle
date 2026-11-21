@@ -46,7 +46,7 @@
    :name "etzhayyim-project-vehicle"
    :kind "cloudflare surface"
    :route-count 1
-   :routes ["v3h1cl01.etzhayyim.com/*"]
+   :routes ["v3h1cl01.itonami.app/*"]
    :vars ["AGENTGATEWAY_MCP_ROUTER_URL" "APP_CAPABILITIES" "APP_DEPLOY_AT"
           "APP_DEPLOY_SHA" "APP_DESCRIPTION" "APP_DISPLAY_NAME"
           "APP_FRAMEWORK" "APP_NANOID" "APP_PERFORMER_TYPE" "APP_SOURCE"

@@ -32,8 +32,8 @@
   },
   "routes": [
     {
-      "pattern": "v3h1cl01.etzhayyim.com/*",
-      "zone_name": "etzhayyim.com"
+      "pattern": "v3h1cl01.itonami.app/*",
+      "zone_name": "itonami.app"
     }
   ],
   "assets": {
