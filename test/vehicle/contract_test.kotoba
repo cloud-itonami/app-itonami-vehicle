@@ -128,7 +128,7 @@
           "src/app.ts の APP_NANOID fallback と kotodama.jsonld の nanoid")
       (is (= (str "kotodama-" n) (:name @wrangler))
           "wrangler の worker 名は kotodama-<nanoid>")
-      (is (= (str n ".etzhayyim.com/*")
+      (is (= (str n ".itonami.app/*")
              (get-in @wrangler [:routes 0 :pattern]))
           "wrangler の route は <nanoid>.etzhayyim.com")))
 

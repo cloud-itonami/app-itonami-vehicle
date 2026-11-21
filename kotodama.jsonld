@@ -1,6 +1,6 @@
 {
   "@context": "https://etzhayyim.com/ns/kotodama/v1",
-  "@id": "did:web:vehicle.etzhayyim.com",
+  "@id": "did:web:vehicle.itonami.app",
   "name": "vehicle",
   "nanoid": "v3h1cl01",
   "performerType": "service",
